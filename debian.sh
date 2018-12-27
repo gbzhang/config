@@ -20,5 +20,5 @@ cp virtualbox.list /etc/apt/sources.list.d/virtualbox.list
 aptitude -y install octave grace kile p4vasp vim lyx gelemental \
   xcrysden texlive-science texlive-publishers \
   sudo wxmaxima inkscape fonts-wqy-microhei fonts-wqy-zenhei \
-  ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy 
+  ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy vim
 aptitude install virtulbox-6.0 -y
