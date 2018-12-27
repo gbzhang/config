@@ -21,3 +21,9 @@ aptitude -y install octave grace kile p4vasp vim lyx gelemental \
   sudo wxmaxima inkscape fonts-wqy-microhei fonts-wqy-zenhei \
   ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy vim
 aptitude install virtulbox-6.0 -y
+# 安装坚果云
+apt-get install  gvfs-bin python-gi gir1.2-appindicator3-0.1
+wget -c https://www.jianguoyun.com/static/exe/installer/debian/nautilus_nutstore_amd64.deb
+dpkg -i nautilus_nutstore_amd64.deb
+apt-get install -f
+aptitude install fcitx-sunpinyin -y
