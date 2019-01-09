@@ -11,11 +11,11 @@ wget http://mirrors.ustc.edu.cn/debiancn/pool/main/d/debiancn-keyring/debiancn-k
 dpkg -i debiancn-keyring_0~20161212_all.deb
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -
+cp virtualbox.list /etc/apt/sources.list.d/virtualbox.list
 aptitude update
 rm debiancn-keyring_0~20161212_all.deb
 rm deb-multimedia-keyring_2016.8.1_all.deb
 aptitude dist-upgrade -y
-cp virtualbox.list /etc/apt/sources.list.d/virtualbox.list
 aptitude -y install octave grace kile p4vasp vim lyx gelemental \
   xcrysden texlive-science texlive-publishers \
   sudo wxmaxima inkscape fonts-wqy-microhei fonts-wqy-zenhei \
