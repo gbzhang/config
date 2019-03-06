@@ -31,5 +31,5 @@ wget -c https://www.jianguoyun.com/static/exe/installer/debian/nautilus_nutstore
 dpkg -i nautilus_nutstore_amd64.deb
 apt-get install -f
 aptitude install fcitx-sunpinyin -y
-aptitude install synclient -y
+aptitude install synclient bash-completion -y
 #cp synclient.sh /usr/local/bin/
