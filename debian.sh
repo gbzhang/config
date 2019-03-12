@@ -30,6 +30,7 @@ apt-get install  gvfs-bin python-gi gir1.2-appindicator3-0.1 -y
 wget -c https://www.jianguoyun.com/static/exe/installer/debian/nautilus_nutstore_amd64.deb
 dpkg -i nautilus_nutstore_amd64.deb
 apt-get install -f
-aptitude install fcitx-sunpinyin -y
-aptitude install synclient bash-completion -y
+aptitude install fcitx-sunpinyin bash-completion jmol -y
+# 笔记本
+aptitude install synclient -y
 #cp synclient.sh /usr/local/bin/
