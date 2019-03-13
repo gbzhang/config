@@ -5,6 +5,7 @@ apt-get install apt-transport-https -y
 #git clone https://github.com/gbzhang/config
 #cd config
 cp sources.list /etc/apt/sources.list
+cp .inputrc ~/
 wget https://mirrors.ustc.edu.cn/deb-multimedia/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
 dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 wget http://mirrors.ustc.edu.cn/debiancn/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb
